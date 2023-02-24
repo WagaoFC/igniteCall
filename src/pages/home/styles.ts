@@ -14,7 +14,7 @@ export const Hero = styled('div', {
   padding: '0 $10',
 
   [`> ${Heading}`]: {
-    '@media(max-width: 680px)': {
+    '@media(max-width: 600px)': {
       fontSize: '$6xl',
     },
   },
@@ -29,7 +29,7 @@ export const Preview = styled('div', {
   paddingRight: '$8',
   overflow: 'hidden',
 
-  'media(max-width: 680px)': {
+  'media(max-width: 600px)': {
     display: 'none',
   },
 })

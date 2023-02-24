@@ -13,7 +13,7 @@ type ClaimUsernameFormData = z.infer<typeof claimUsernameFormSchema>
 export function ClaimUsernameForm() {
   const { register, handleSubmit } = useForm<ClaimUsernameFormData>()
 
-  async function handleClaimUsername(data: any) {
+  async function handleClaimUsername(data: ClaimUsernameFormData) {
     console.log(data)
   }
 

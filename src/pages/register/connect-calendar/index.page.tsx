@@ -4,7 +4,7 @@ import { signIn } from 'next-auth/react'
 import { Container, Header } from '../styles'
 import { ConnectBox, ConnectItem } from './styles'
 
-export default function Test() {
+export default function Register() {
   return (
     <Container>
       <Header>
